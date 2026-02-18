@@ -18,116 +18,174 @@ class CategoriesPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children:[
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
                onPressed:(){},
-               child: Column(
+               child:SizedBox(
+                height:100.0,
+                width: 100.0,
+                child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                Icon(Icons.memory),
+                Icon(Icons.memory,
+                size: 50.0,),
                 Text('technology'),
                 Text('4')
-                ]),             
+                ]),)             
                ),
                
                ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
                onPressed:(){}, 
-               child: Column(
+               child:SizedBox(
+                height:100.0,
+                width: 100.0,
+                child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                Icon(Icons.work),
+                Icon(Icons.work,
+                size: 50.0,),
                 Text('buisness'),
                 Text('4')]
-               )),
+               ))),
                
                ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
                onPressed:(){},
-               child: Column(
+               child: SizedBox(
+                height:100.0,
+                width: 100.0,
+                child:Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                 Icon(Icons.movie),
+                 Icon(Icons.movie,
+                 size: 50.0,),
                 Text('entertainment'),
                 Text('4')
                 ]
-               ), 
+               ),) 
               
                ),
                
                ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
                onPressed:(){}, 
-               child: Column(
+               child:SizedBox(
+                height:100.0,
+                width: 100.0,
+                child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                 Icon(Icons.science),
+                 Icon(Icons.science,
+                 size: 50.0,),
                 Text('science'), 
                 Text('4')
                 ]
                ), 
-               
+               )
                ),
             ]
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
              children:[
                ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
                onPressed:(){}, 
-               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+               child:SizedBox(
+                height:100.0,
+                width: 100.0,
+                child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(Icons.event),
+                  Icon(Icons.sports_soccer_rounded,
+                  size: 50.0,),
                   Text('Sports'),
                   Text('4')
                 ]
-               ), 
+               )) 
               
                ),
                ElevatedButton(
-               onPressed:(){},
-               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
+                onPressed:(){},
+               child: SizedBox(
+                height:100.0,
+                width: 100.0,
+                child: Column(
+                //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(Icons.web),
+                  Icon(Icons.web,
+                  size:50.0),
                   Text('world news'),
                   Text('4')
                 ]
                ), 
-               
+               )
               
                ),
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
                onPressed:(){}, 
-               child: Column(
+
+               child: SizedBox(
+                height:100.0,
+                width: 100.0,
+                child:Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                 Icon(Icons.favorite_outline),
+                 Icon(Icons.favorite_outline,
+                 size:50.0),
                  Text('health'),
                   Text('4')
                 ]
-               ), 
+               ), )
               
                ),
 
                ElevatedButton(
-               onPressed:(){},child: Column(
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),), ),
+               onPressed:(){},
+               child: SizedBox(
+                height:100.0,
+                width: 100.0,
+                child:Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                   Icon(Icons.eco),
+                   Icon(Icons.eco,
+                   size:50.0),
                  Text('enviroment'),
                   Text('4')
                 ]
-               ),  
+               ),  )
               
                ),
 
